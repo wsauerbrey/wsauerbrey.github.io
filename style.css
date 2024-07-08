@@ -51,5 +51,6 @@ footer {
 }
 
 .alleButtons {
-    border: solid red
+    border: solid red;
+    padding: 5px
 }
