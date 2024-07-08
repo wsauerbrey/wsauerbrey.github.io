@@ -17,17 +17,6 @@ nav {
     padding: 1em;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav li {
-    float: left;
-}
-
 nav a {
     display: block;
     color: white;
@@ -47,4 +36,9 @@ footer {
     padding: 1em;
     bottom: 0;
     width: 100%;
+}
+
+button.eigenschaften {
+    color: blue
+    background-color: greenyellow;
 }
