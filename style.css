@@ -45,3 +45,8 @@ footer {
 .bestellen {
     background-color: greenyellow;
 }
+
+.alleButtons {
+display: flex;
+flex-direction: row;
+}
