@@ -63,3 +63,13 @@ footer {
     left: 50px;
     color: white;
 }
+
+.coolerbutton {
+    background-color: orange;
+      position: absolute;
+    top: 120px;
+  }
+  .button_nein {
+    left: 50px;
+    color: white;
+  }
