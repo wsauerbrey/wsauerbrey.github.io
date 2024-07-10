@@ -47,5 +47,6 @@ footer {
 }
 
 .bestellenButton {
-background-color: chocolate;
+    background-color: chocolate;
+    padding: 30px 40px;
 }
