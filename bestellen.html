@@ -24,32 +24,17 @@
     <p>Falls Interesse unter dieser E-Mail Adresse betsellen:</p>
     <p>wiesensingfiebel@shop.de</p>
 
-    <button class="bestellenButton bestellen-ja" onmouseover="aendereButtonText()">
+    <button class="bestellenButton" onclick="zeigeMeldung()">
         Jetzt Bestellen
     </button>
+        <script>
+            function zeigeMeldung() {
+                alert("Internet Verbindung fehlgeschlagen. Bitte erneut versuchen!");
+            }
+        </script>
 
-    <script>
-        function aendereButtonText() {
-            var Bestellen = document.querySelector('.bestellen-ja');
-
-            Bestellen.style.left = "130px";
-        }
-    </script>
-
-<button class="coolerbutton button_nein" onmouseover="aendereButtonText()">
-    Nein
-  </button>
-
-  <script>
-    function aendereButtonText() { 
- var NeinButton = document.querySelector('.button_nein');
- 
- NeinButton.style.left = "130px";
- }
-  </script>
-
-    <main>
-        <img src="Bilder /handsup.jpg" alt="500" width="500">
-    </main>
+        <main>
+            <img src="Bilder /handsup.jpg" alt="500" width="500">
+        </main>
 
 </body>
