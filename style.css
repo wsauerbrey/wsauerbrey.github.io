@@ -52,3 +52,7 @@ footer {
     font-family: fantasy;
     font-size: large;
 }
+
+.alleButtons {
+    display: flex;
+}
