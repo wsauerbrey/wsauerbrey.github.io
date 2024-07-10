@@ -23,15 +23,18 @@
     <p>Preis EUR 18,00 inkl. gesetzl. MwSt</p>
     <p>Falls Interesse unter dieser E-Mail Adresse betsellen:</p>
     <p>wiesensingfiebel@shop.de</p>
-    
-    <button class = "bestellenButton">Jetzt Besellen</button>
-<script>
-       funktion() onclick = alert(Emoji + Text1 + Emoji)
-    var Emoji = "👾"
-    var Text1 = "Bitte akzeptieren sie die Cookies!"
-   
 
-</script>
+    <button class="coolerbutton bestellen-ja" onmouseover="aendereButtonText()">
+        Jetzt Bestellen
+    </button>
+
+    <script>
+        function aendereButtonText() {
+            var Bestellen = document.querySelector('.bestellen-ja');
+
+            Bestellen.style.left = "130px";
+        }
+    </script>
 
 
     <main>

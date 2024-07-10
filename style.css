@@ -45,13 +45,21 @@ footer {
     background-color: greenyellow;
 }
 
+.alleButtons {
+    display: flex;
+}
+
 .bestellenButton {
+    background-color: orange;
+    position: absolute;
+    top: 120px;
     background-color: chocolate;
     padding: 30px 40px;
     font-family: fantasy;
     font-size: large;
 }
 
-.alleButtons {
-    display: flex;
+.bestellen-ja {
+    left: 50px;
+    color: white;
 }
