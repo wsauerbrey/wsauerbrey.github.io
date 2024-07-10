@@ -53,9 +53,6 @@ footer {
     background-color: orange;
     font-family: fantasy;
     font-size: large;
-
-}
-
-.auto {
+    top: 500px;
     left: 500px;
 }
