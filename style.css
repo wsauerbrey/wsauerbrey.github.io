@@ -58,5 +58,6 @@ footer {
 }
 
 .ob {
-    align-items: left;
+    align-items: center;
+    display: flex;
 }
