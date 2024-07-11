@@ -71,8 +71,7 @@ footer {
 }
 
 .ob img {
-    margin-right: 10px;
-
+    margin-right: 0px;
 }
 
 .ueberschrift {
@@ -97,8 +96,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   padding-right:300px;
-   padding-top: 100px;
+    padding-right: 300px;
+    padding-top: 100px;
 }
 
 .text-content {
@@ -126,4 +125,3 @@ footer {
     padding: 5px 100px;
     font-size: x-large;
 }
-
