@@ -56,10 +56,10 @@ footer {
 .bestellenButton {
     background-color: orange;
     font-family: fantasy;
-    font-size: large;
-    top: 500px;
+    font-size: x-large;
+    padding: 30px 60px;
     left: 500px;
-    border-left: 1000px;
+    border-left: 500px;
 }
 
 .ob {
@@ -79,16 +79,8 @@ footer {
     font-size: larger;
 }
 
-.keineAhnung {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: x-large;
-}
-
-.keineAhnung img {
-    align-self: flex-start;
-    margin-top: 20px
+.keineAhnung div {
+    grid-column: 2;
 }
 
 .keinPlan {
@@ -96,3 +88,42 @@ footer {
     max-width: 1500px;
     font-size: x-large;
 }
+
+.keinePlan img {
+    margin-left: 200px
+}
+
+.keineAhnung {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding-right:300px;
+   padding-top: 100px;
+}
+
+.text-content {
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.text-content p,
+.text-content ul {
+    margin: 10;
+    padding: 5px 100px;
+    font-size: x-large;
+
+}
+
+.text-content h2 {
+    margin: 50;
+    padding: 10px 0;
+    font-size: xx-large;
+}
+
+.text-content p,
+.text-content ol {
+    margin: 10;
+    padding: 5px 100px;
+    font-size: x-large;
+}
+
