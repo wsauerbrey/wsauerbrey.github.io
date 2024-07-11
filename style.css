@@ -61,7 +61,7 @@ footer {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    max-width: 300px;
+    max-width: 3000px;
 }
 
 .on img {
