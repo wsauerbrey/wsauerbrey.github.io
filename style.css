@@ -35,18 +35,22 @@ footer {
 
 .eigenschaften {
     background-color: rgb(158, 27, 27);
+    font-size: larger;
 }
 
 .anwendung {
     background-color: rgb(158, 27, 27);
+    font-size: larger;
 }
 
 .bestellen {
     background-color: rgb(158, 27, 27);
+    font-size: larger;
 }
 
 .alleButtons {
     display: flex;
+    font-size: larger;
 }
 
 .bestellenButton {
@@ -55,15 +59,40 @@ footer {
     font-size: large;
     top: 500px;
     left: 500px;
+    border-left: 1000px;
 }
 
 .ob {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    max-width: 3000px;
+    max-width: 1500px;
+    font-size: x-large;
 }
 
-.on img {
+.ob img {
     margin-right: 10px;
+
+}
+
+.ueberschrift {
+    font-size: larger;
+}
+
+.keineAhnung {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: x-large;
+}
+
+.keineAhnung img {
+    align-self: flex-start;
+    margin-top: 20px
+}
+
+.keinPlan {
+    align-items: center;
+    max-width: 1500px;
+    font-size: x-large;
 }
